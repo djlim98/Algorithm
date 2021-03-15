@@ -17,8 +17,8 @@ for t in range(T):
                 king=min(network[i],network[j])
                 network[i]=king
                 network[j]=king
-                for k in range(n):
-                    if i==k or k==j:
-                        network[k]=king
-    
+    for i in range(n):
+        stack=[]
+        while stack:
+            
     print(len(set(network)))
